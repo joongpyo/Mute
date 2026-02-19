@@ -18,10 +18,10 @@ struct MuteApp: App {
 //    init() {
 //        do {
 //            // 1. 외장 SSD 내 경로 지정 (가상 디스크 이름 반영)
-//            // ⚠️ 본인의 실제 볼륨 이름이 'Xcode_Drive'인지 다시 한번 확인하세요!
+//            //  본인의 실제 볼륨 이름이 'Xcode_Drive'인지 다시 한번 확인
 //            let ssdURL = URL(fileURLWithPath: "/Volumes/Xcode_Drive/Mute_DB")
 //            
-//            // 폴더가 없으면 생성 (폴더가 이미 있으면 그냥 지나갑니다)
+//            // 폴더가 없으면 생성 (폴더가 이미 있으면 그냥 지나감)
 //            try FileManager.default.createDirectory(at: ssdURL, withIntermediateDirectories: true)
 //            
 //            // 2. 실제 데이터베이스 파일명 설정 (Mute 전용 이름으로)
@@ -31,10 +31,10 @@ struct MuteApp: App {
 //            let config = ModelConfiguration(url: storeURL)
 //            
 //            // 4. 컨테이너 초기화
-//            // ⚠️ 여기서 SoundRecord.self를 넣어줘야 우리가 만든 모델을 저장할 수 있습니다.
+//            //  여기서 SoundRecord.self를 넣어줘야 우리가 만든 모델을 저장할 수 있습니다.
 //            sharedModelContainer = try ModelContainer(for: SoundRecord.self, configurations: config)
 //            
-//            print("✅ Mute 데이터베이스가 외장 SSD에 연결되었습니다: \(storeURL.path)")
+//            print(" Mute 데이터베이스가 외장 SSD에 연결되었습니다: \(storeURL.path)")
 //        } catch {
 //            // 외장 SSD가 연결되지 않았거나 문제가 생겼을 때 앱이 안전하게 종료되도록 합니다.
 //            fatalError("외장 SSD 저장소 설정 실패: \(error.localizedDescription)")
