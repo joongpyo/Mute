@@ -2,7 +2,7 @@
 
 ---
 
-> [!Notion]
+> [!TIP]
 > **[Mute: The Noise Archive 노션 바로가기 🔗](https://www.notion.so/PROJECT-Mute-The-Noise-Archive-30c273faf4e780a593bedff7be8d8a80?source=copy_link)**
 
 ---
