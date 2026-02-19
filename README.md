@@ -1,11 +1,3 @@
-//
-//  README.md
-//  Mute
-//
-//  Created by JP on 2/19/26.
-//
-
-/*
  # PROJECT: Mute (The Noise Archive)
  
  ## 1. 프로젝트 개요 (Overview)
