@@ -2,10 +2,7 @@
 
 ---
 
-### 📖 상세 가이드 및 기획 문서
-프로젝트의 상세한 설계 구조와 기획 의도는 아래 노션 페이지에서 확인하실 수 있습니다.
-
-> [!TIP]
+> [!Notion]
 > **[Mute: The Noise Archive 노션 바로가기 🔗](https://www.notion.so/PROJECT-Mute-The-Noise-Archive-30c273faf4e780a593bedff7be8d8a80?source=copy_link)**
 
 ---
