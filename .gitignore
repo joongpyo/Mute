@@ -1,2 +1,55 @@
 # md file
 note.md
+
+# Xcode
+DerivedData/
+build/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# User-specific Xcode data
+*.xcworkspace/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+
+# Swift Package Manager
+.build/
+.swiftpm/xcode/package.xcworkspace/xcuserdata/
+
+# CocoaPods (사용 중일 때만 유지, 미사용이면 제거)
+Pods/
+Podfile.lock
+
+# Carthage (사용 시)
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Archives
+*.xcarchive
+
+# SwiftPM resolved file (팀 정책에 따라 추적할 수도 있음)
+# Package.resolved
+
+# Playground
+timeline.xctimeline
+playground.xcworkspace
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Env / Secrets (필요 시)
+.env
+.env.*
+
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
