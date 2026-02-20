@@ -15,6 +15,7 @@
 		158D5C482F4750E2001D9E79 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = README.md; sourceTree = "<group>"; };
 		15BF56B12F48049100F42743 /* note.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = note.md; sourceTree = "<group>"; };
 		15BF56B32F481DDE00F42743 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		15BF56B52F4825AE00F42743 /* grammar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = grammar.swift; sourceTree = "<group>"; };
 		15D6C8942F472B5300D1ADC0 /* Mute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Mute.app; path = "/Volumes/Xcode_Drive/Xcode/Projects/Mute/build/Debug-iphoneos/Mute.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
@@ -53,6 +54,7 @@
 		15D6C88B2F472B5300D1ADC0 = {
 			isa = PBXGroup;
 			children = (
+				15BF56B52F4825AE00F42743 /* grammar.swift */,
 				15BF56B32F481DDE00F42743 /* .gitignore */,
 				15BF56B12F48049100F42743 /* note.md */,
 				158D5C482F4750E2001D9E79 /* README.md */,
