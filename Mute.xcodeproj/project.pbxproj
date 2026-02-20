@@ -6,9 +6,16 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		15BF56B22F4804B700F42743 /* note.md in Resources */ = {isa = PBXBuildFile; fileRef = 15BF56B12F48049100F42743 /* note.md */; };
+		15BF56B42F481E2700F42743 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 15BF56B32F481DDE00F42743 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		158D5C482F4750E2001D9E79 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = README.md; sourceTree = "<group>"; };
-		15D6C8942F472B5300D1ADC0 /* Mute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mute.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15BF56B12F48049100F42743 /* note.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = note.md; sourceTree = "<group>"; };
+		15BF56B32F481DDE00F42743 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		15D6C8942F472B5300D1ADC0 /* Mute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Mute.app; path = "/Volumes/Xcode_Drive/Xcode/Projects/Mute/build/Debug-iphoneos/Mute.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -46,18 +53,11 @@
 		15D6C88B2F472B5300D1ADC0 = {
 			isa = PBXGroup;
 			children = (
+				15BF56B32F481DDE00F42743 /* .gitignore */,
+				15BF56B12F48049100F42743 /* note.md */,
 				158D5C482F4750E2001D9E79 /* README.md */,
 				15D6C8962F472B5300D1ADC0 /* Mute */,
-				15D6C8952F472B5300D1ADC0 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		15D6C8952F472B5300D1ADC0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				15D6C8942F472B5300D1ADC0 /* Mute.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,7 +110,7 @@
 			mainGroup = 15D6C88B2F472B5300D1ADC0;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 15D6C8952F472B5300D1ADC0 /* Products */;
+			productRefGroup = 15D6C88B2F472B5300D1ADC0;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -124,6 +124,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15BF56B22F4804B700F42743 /* note.md in Resources */,
+				15BF56B42F481E2700F42743 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
